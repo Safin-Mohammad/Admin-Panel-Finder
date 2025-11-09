@@ -12,6 +12,7 @@ Key improvements/fixes:
 - Safer path joining using urllib.parse.urljoin
 - Robust wordlist parsing (skips blank lines/comments)
 - Prints summary counts
+- Big path list(482 paths)
 """
 
 import argparse
