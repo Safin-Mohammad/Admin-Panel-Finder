@@ -35,7 +35,7 @@ BANNER = f"""{C_INFO}
 | | | | (_| | | | | | | | | | | | |   | | | | | (_| |  __/ |   
 \_| |_/\__,_|_| |_| |_|_|_| |_| \_|   |_|_| |_|\__,_|\___|_|
 
-                          {C_RESET}Made with {C_ERR}<3{C_RESET} By D3V{C_INFO}"""
+                          {C_RESET}Made {C_ERR}!😸{C_RESET} By Safin Mohammad{C_INFO}"""
 
 def parse_args():
     p = argparse.ArgumentParser(description="Breacher - directory/endpoint scanner (improved)")
