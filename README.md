@@ -38,7 +38,6 @@ pip install requests
 pkg install git
 git clone https://github.com/Safin-Mohammad/Admin-Panel-Finder
 cd Admin-Panel-Finder
-python admin-finder.py
 ```
 
 ---
