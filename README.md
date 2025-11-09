@@ -1,6 +1,6 @@
 # Admin-Panel-Finder
 
-Admin-Panel-Finder (formerly "Breacher") is a small, fast Python tool to help locate administrative panels and common endpoints on web sites by probing a list of paths. It performs optional multithreaded scans, checks robots.txt, reports HTTP responses (200, 301/302 redirects, 404, etc.), and provides simple filtering by file type.
+Admin-Panel-Finder is a small, fast Python tool to help locate administrative panels and common endpoints on web sites by probing a list of paths. It performs optional multithreaded scans, checks robots.txt, reports HTTP responses (200, 301/302 redirects, 404, etc.), and provides simple filtering by file type.
 
 This README explains how to install, run, and customize Admin-Panel-Finder, and includes usage examples and safety/legal notes.
 
@@ -126,34 +126,3 @@ A summary with counts for each response category is printed at the end.
 
 ---
 
-## Contributing
-
-Contributions are welcome. Ideas:
-- Add CSV/JSON output options.
-- Add proxy support and SOCKS5.
-- Add more precise file-extension filtering and smart guessing.
-- Add rate-limiting and retry logic.
-
-Please open issues / pull requests with clear descriptions and test cases.
-
----
-
-## License
-
-This project is provided "as-is". You may relicense or adapt under your preferred open-source license. (Add an explicit license file such as MIT if desired.)
-
----
-
-## Acknowledgements
-
-- Original author: D3V (script inspired by "Breacher").
-- Uses the `requests` library.
-
----
-
-If you'd like, I can:
-- produce a sample `paths.txt` with common admin-panel paths for several CMS platforms,
-- add an example systemd service or Dockerfile to run scans in a container,
-- or create a simple CSV/JSON output option and include it in the README examples.
-
-Which of those would you like next?
