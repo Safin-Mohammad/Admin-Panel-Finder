@@ -2,8 +2,6 @@
 
 Admin-Panel-Finder is a small, fast Python tool to help locate administrative panels and common endpoints on web sites by probing a list of paths. It performs optional multithreaded scans, checks robots.txt, reports HTTP responses (200, 301/302 redirects, 404, etc.), and provides simple filtering by file type.
 
-This README explains how to install, run, and customize Admin-Panel-Finder, and includes usage examples and safety/legal notes.
-
 ---
 
 ## Features
